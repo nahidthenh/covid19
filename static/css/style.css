@@ -124,18 +124,25 @@ html {
 .section-title p {
 	color: #6a6a6c;
 	font-size: 14px;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 30px;
 }
 .section-title h3::after {
 	content: '';
 	position: absolute;
-	background: #FF3D39;
+	background: #f04e23;
 	height: 3px;
-	width: 80px;
-	margin-top: 6%;
-	left: 21%;
+	width: 100px;
+	margin-top: -22px;
+	left: 41%;
 	border-radius: 10px;
+	z-index: -1;
+}
+.section-title i {
+	color: #f04e23;
+	background: #fff;
+	padding: 12px 12px;
+	margin-left: 0px;
 }
 .contagious-box img {
 	width: 100%;
@@ -155,6 +162,8 @@ html {
 	color: #555151;
 	font-size: 13px;
 }
+
+/* symptoms area  */
 
 
 .card {
@@ -193,7 +202,7 @@ html {
 .symptoms-area {
 	background: #F1F1F1;
 	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	border-radius: 0px 0px 0px 150px;
 }
 .symptoms-area h3 {
@@ -205,4 +214,47 @@ html {
 
 .symptoms-content {
 	margin-top: 70px;
+}
+
+
+/* prevention-area */
+
+
+
+.prevention-area {
+	padding: 50px;
+}
+a {
+	text-decoration: none !important;
+}
+.prevention-box a h3 {
+	color: #302E2E;
+	font-size: 18px;
+	font-weight: 600;
+}
+.prevention-box img {
+	padding-bottom: 20px;
+}
+.prevention-box {
+	background: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: #fff 1px 3px 5px -5px;
+	margin-top: 40px;
+}
+.active{
+	background: #FFF7F7;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: #000 1px 3px 5px -5px;
+	transition: .5s;
+	cursor: pointer;
+}
+.prevention-box:hover{
+	background: #FFF7F7;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: #000 1px 3px 5px -5px;
+	transition: .5s;
+	cursor: pointer;
 }
