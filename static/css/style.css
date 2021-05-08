@@ -79,7 +79,7 @@ body{
 	border-radius: 5px;
     border: 1px solid #F2E8E8;
 }
-.fas.fa-long-arrow-alt-right {
+.btn-right {
 	background: #ff3d39;
 	padding: 7px;
 	margin-left: 10px;
@@ -96,4 +96,59 @@ body{
 .hero-right-content {
     padding-top: 100px;
     padding-bottom: 80px;
+}
+
+
+
+
+
+/* contagious-area  */
+
+.contagious-box {
+	padding: 13px;
+	border-radius: 20px;
+	box-shadow: #FFFCFD 0px 0px 10px 10px;
+	padding-bottom: 35px;
+}
+.contagious-area {
+	padding: 50px 0px;
+}
+.section-title h3 {
+	color: #3E4052;
+	font-weight: 600;
+	font-size: 25px;
+}
+.section-title p {
+	color: #6a6a6c;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.section-title h3::after {
+	content: '';
+	position: absolute;
+	background: #FF3D39;
+	height: 3px;
+	width: 80px;
+	margin-top: 6%;
+	left: 21%;
+	border-radius: 10px;
+}
+.contagious-box img {
+	width: 100%;
+	border-radius: 10px;
+}
+.contagious-box h6 {
+	color: #090E3F;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 15px;
+}
+.contagious-icon {
+	color: #B9B9B9;
+	cursor: pointer;
+}
+.contagious-box p {
+	color: #555151;
+	font-size: 13px;
 }
