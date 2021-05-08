@@ -6,6 +6,9 @@
 body{
     font-family: 'Inter', sans-serif !important;
 }
+html {
+	scroll-behavior: smooth;
+  }
 .nav-link {
 	color: #000 !important;
 	font-weight: 400;
@@ -37,7 +40,7 @@ body{
 	background-image: url(../img/hero-bg.png);
 	background-size: cover;
 	/* height: 100vh; */
-	border-radius: 0px 0px 100px;
+	border-radius: 0px 0px 150px;
 }
 
 .hero-left-content {
@@ -151,4 +154,55 @@ body{
 .contagious-box p {
 	color: #555151;
 	font-size: 13px;
+}
+
+
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+	padding: 2px 16px;
+  }
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 5px; /* 5px rounded corners */
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .card img {
+	border-radius: 5px 5px 0 0;
+	cursor: pointer;
+  }
+
+.card h4 {
+	text-align: center;
+	padding-top: 7px;
+	font-size: 17px;
+}
+
+.symptoms-area {
+	background: #F1F1F1;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	border-radius: 0px 0px 0px 150px;
+}
+.symptoms-area h3 {
+	color: #3E4052;
+	font-weight: 600;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.symptoms-content {
+	margin-top: 70px;
 }
