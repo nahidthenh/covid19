@@ -258,3 +258,56 @@ a {
 	transition: .5s;
 	cursor: pointer;
 }
+
+
+/* Gideline area  */
+.gideline-area {
+	padding: 100px;
+	background: #ededed;
+}
+.gideline-area h5::after {
+	content: '';
+	position: absolute;
+	height: 8px;
+	width: 8px;
+	background: #FF3D39;
+	margin-left: 10px;
+	margin-top: 9px;
+	border-radius: 10px;
+}
+.stayhome {
+	width: 100%;
+}
+.gideline-area h5 {
+	margin-top: 10px;
+	color: #090E3F;
+	font-weight: 600;
+}
+.gideline-area h5::before {
+	content: '';
+	position: absolute;
+	height: 8px;
+	width: 8px;
+	background: #FF3D39;
+	margin-top: 9px;
+	border-radius: 10px;
+	margin-left: -15px;
+}
+
+.card-header {
+	background: #FFAA39 !important;
+	border: 0 !important;
+}
+.card-header a {
+	color: #fff !important;
+	font-weight: 600;
+}
+.gideline-content h4 {
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.card-body {
+	background: #ffaa39 !important;
+	border-top: 1px solid #fff !important;
+	color: #fff !important;
+}
