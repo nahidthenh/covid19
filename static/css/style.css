@@ -449,3 +449,25 @@ a {
 .footer-text ul li a {
 	color: #ffffffa1;
 }
+.newsleter {
+	color: #fff;
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.hr-line {
+	height: 1px;
+	background: #c2d1d8;
+}
+
+
+.footer-menu ul li {
+	list-style: none;
+	float: left;
+	margin: 0px 10px;
+	margin-top: ;
+  }
+  .footer-menu ul li a {
+	color: #fff;
+  }
