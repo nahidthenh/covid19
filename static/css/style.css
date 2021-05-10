@@ -263,7 +263,6 @@ a {
 /* Gideline area  */
 .gideline-area {
 	padding: 100px;
-	background: #ededed;
 }
 .gideline-area h5::after {
 	content: '';
@@ -310,4 +309,107 @@ a {
 	background: #ffaa39 !important;
 	border-top: 1px solid #fff !important;
 	color: #fff !important;
+}
+
+/* Map area start  */
+.map-area {
+	background: #F1F1F1;
+	padding: 50px 0px;
+	border-radius: 0px 150px 0px 0px;
+}
+.section-title h4 {
+	color: #3E4052;
+	font-weight: 600;
+	font-size: 25px;
+}
+.map-box {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.map-box i {
+	background: #FFAA39;
+	color: #fff;
+	padding: 15px;
+	border-radius: 8px;
+	font-size: 22px;
+}
+.tow i {
+	background: #FF3D39;
+	color: #fff;
+	padding: 15px;
+	border-radius: 8px;
+	font-size: 22px;
+}
+.three i{
+	background: #4FC0FF;
+	color: #fff;
+	padding: 15px;
+	border-radius: 8px;
+	font-size: 22px;
+}
+.map-box h5 {
+	color: #ffaa39;
+	font-weight: 600;
+	margin-top: 6px;
+}
+.tow h5{
+	color: #FF3D39;
+	font-weight: 600;
+}
+.three h5{
+	color: #4FC0FF;
+	font-weight: 600;
+}
+.map-box h5 span {
+	color: #6a6a6c;
+	font-weight: normal;
+	font-size: 15px;
+}
+.map-box-one {
+	/* width: 70%; */
+	background: #F2EADF;
+	padding: 10px;
+	border-radius: 12px;
+}
+.map-box-tow {
+	/* width: 70%; */
+	background: #F3E0DF;
+	padding: 10px;
+	border-radius: 12px;
+}
+.map-box-three {
+	/* width: 70%; */
+	background: #E1ECF2;
+	padding: 10px;
+	border-radius: 12px;
+}
+.map-ditils {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.map-ditils h6 {
+	font-size: 15px;
+}
+.map-ditils h6::after {
+	content: '';
+	position: absolute;
+	background: #24495C;
+	height: 10px;
+	width: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.map-ditils h5 {
+	font-size: 15px;
+}
+.map-ditils h5::after {
+	content: '';
+	position: absolute;
+	background: #FFAA39;
+	height: 10px;
+	width: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
 }
